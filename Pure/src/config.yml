@@ -2,3 +2,8 @@
 #	name
 #
 #
+
+restrictedBlocks:
+  - TNT
+  - TNT_MINECART
+  - LAVA_BUCKET

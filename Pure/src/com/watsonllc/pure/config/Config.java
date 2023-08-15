@@ -1,5 +1,7 @@
 package com.watsonllc.pure.config;
 
+import java.util.List;
+
 import com.watsonllc.pure.Main;
 
 public class Config {
@@ -28,6 +30,10 @@ public class Config {
 	
 	public static String getString(String string) {
 		return Main.instance.getConfig().getString(string);
+	}
+	
+	public static List<String> getStringList(String string) {
+		return Main.instance.getConfig().getStringList(string);
 	}
 	
 	public static Double getDouble(String string) {
