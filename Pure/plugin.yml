@@ -1,0 +1,14 @@
+name: Pure
+description: Pure MC survival custom plugin
+author: WatsonLLC
+version: 0.0.1
+api-version: '1.20'
+main: com.watsonllc.pure.Main
+commands:
+  bed:
+  home:
+  sethome:
+  removehome:
+  spawn:
+  setspawn:
+  removespawn:
